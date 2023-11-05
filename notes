@@ -1,0 +1,23 @@
+Reactjs.org => React Js Documentation site
+
+use var, let and const to create variables in javascript
+
+Datatypes:
+Numbers
+Objects
+Booleans
+String
+undefined
+null
+
+Strict mode - Imposes a lot of restrictions in our JS code.
+
+just put in "use strict";
+Just it is used to ensure no bugs come in due to the leniency that JS gives us while writing code
+While using React, Strict mode is always on
+
+Normal Functions vs Arrow Functions
+
+In Normal Functions, "this" keyword is undefined.
+
+In Arrow Functions, "this" keyword is not undefined.

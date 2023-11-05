@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a = 15;
+        console.log(a);
+        let s = "op boy"
+        console.log(s)
+
+        function hello() {
+            // console.log("Hey Harry");
+        }
+
+        // objects
+        let obja = {
+            r: 34, 
+            m: 64,
+            func: function myFunc(number) {
+            // console.log("The number is " + number);
+        }
+        }
+        // console.log(obja.r)
+        obja.func(45);
+
+        // to add an event
+        document.addEventListener("click", function click(){
+        //    console.log("clicked");
+            // get an alert dialog box
+            alert("hello");
+            let conf = confirm("Are you sure");
+            // console.log(conf);
+        })
+
+        let arr = [32, 22, 12];
+        // for(let i = 0; i < arr.length; i++) {
+        //     // console.log(arr[i]);
+        // }
+
+        // array.forEach(element => {
+        //    // a for each loop 
+        //  });
+
+
+        // Arrow Function
+         let mobj = {
+             a: this,
+             myfunc : (number) => {
+                 console.log("The number is " + this);
+             }
+         }
+
+         mobj.myfunc();
+
+
+         // Normal Function
+        let mob = {
+            a: this,
+            myfunc : function (number) {
+                console.log(this);
+            }
+        }
+
+        mob.myfunc();
+        console.log(mob.a);
+
+
+        // Callback
+        setTimeout(() => {
+            console.log("Mai aa gaya jaani!")
+        }, 3000);
+        console.log("Baad waala code line hu mai");
+
+
+        // Promises
+        
+    </script>
+</head>
+<body>
+    <h1>
+    I am learning JS
+
+    </h1>
+    
+</body>
+</html>
